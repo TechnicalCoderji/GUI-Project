@@ -21,7 +21,7 @@ def change_theme():
 window = ttk.Window(title="Miles to Kilometers",size=(500,300))
 # window.title("Miles to Kilometers") #for set title of window
 # window.geometry("300x150") #widthxheight
-window.iconbitmap("logo.ico")
+# window.iconbitmap("logo.ico")
 style = ttk.Style("journal")
 
 #title
