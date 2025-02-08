@@ -67,7 +67,7 @@ button = ttk.Button(master=window , text= "Convert" ,command=get_love_percentage
 button.pack()
 
 #output
-output_string = tk.StringVar(value="💗💗💗99%💗💗💗")
+output_string = tk.StringVar()
 output_label = ttk.Label(master=window,text="OUTPUT" , font="Calibri 24",textvariable=output_string)
 output_label.pack(pady=5)
 
